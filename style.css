@@ -1,0 +1,61 @@
+body {
+    margin: 0;
+    background: #020202;
+    cursor: crosshair;
+    background: rgba(76, 175, 80, 0.3);
+    background-image: url("1.jpeg");
+    height: 100%;
+    /* You must set a specified height */
+    background-position: center;
+    /* Center the image */
+    background-repeat: no-repeat;
+    /* Do not repeat the image */
+    background-size: cover;
+}
+
+canvas {
+    display: block
+}
+
+h1 {
+    position: absolute;
+    top: 50%;
+    left: 51%;
+    text-align: center;
+    background: linear-gradient(to right, #ffffff 0%, #c7ecee 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    opacity: 1.1;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-family: "Source Sans Pro";
+    font-size: 5em;
+    font-weight: 900;
+    -webkit-user-select: none;
+    user-select: none;
+    font-size: 64px;
+}
+
+h2 {
+    position: absolute;
+    top: 70%;
+    left: 51%;
+    text-align: center;
+    opacity: 1.1;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-family: "Source Sans Pro";
+    font-weight: 900;
+    -webkit-user-select: none;
+    user-select: none;
+}
+
+a {
+    background: linear-gradient(to right, #6F1E51 0%, #B53471 100%);
+    border: #6F1E51;
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: x-large;
+    padding: 10%;
+}
